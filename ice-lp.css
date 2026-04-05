@@ -60,7 +60,8 @@ section{padding:84px 0}
 .about-ice-bg{position:absolute;inset:0;background-image:url('IMG/44.png');background-size:cover;background-position:center;animation:kenBurns 20s ease-in-out infinite alternate;filter:brightness(.45)}
 @keyframes kenBurns{0%{transform:scale(1) translateX(0) translateY(0)}100%{transform:scale(1.12) translateX(-3%) translateY(-2%)}}
 .about-ice-content{position:relative;z-index:2;width:100%;padding:90px 24px}.about-ice .section-title{background:linear-gradient(100deg,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#e0bbff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.ice-logo-wrap{max-width:280px;margin:0 auto 26px}
+.ice-logo-wrap{max-width:168px;margin:0 auto 22px}
+.ice-logo-wrap img{width:100%;height:auto;object-fit:contain}
 .ice-tagline{display:inline-block;margin-top:16px;font-size:1.04rem;font-weight:600;color:rgba(255,255,255,.82);letter-spacing:.04em;line-height:1.9;animation:fadeInUp 1.2s ease both;animation-delay:.2s}
 .ice-body{margin-top:24px;font-size:1rem;color:rgba(255,255,255,.82);line-height:2;animation:fadeInUp 1.2s ease both;animation-delay:.45s}
 @keyframes fadeInUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
